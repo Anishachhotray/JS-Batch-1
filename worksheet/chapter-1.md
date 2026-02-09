@@ -45,7 +45,21 @@ ans- output: [1,2,3,4]
 
 7.Write code to demonstrate the difference between primitive and reference assignment.
 
+let name = "Anisha";
+let aim = name;
 
+aim = "web dev";
+
+console.log(name); // Anisha
+console.log(aim); // web dev
+
+let obj1 = { name: "Anisha" };
+let obj2 = obj1;
+
+obj2.name = "Aliva";
+
+console.log(obj1.name); // Aliva
+console.log(obj2.name); // Aliva
 
 8.What will this code print? Explain why.
 let a = { value: 5 };
